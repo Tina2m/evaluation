@@ -1,0 +1,19 @@
+     START> PairSeq
+     FILE1> R1_primers-pass.fastq
+     FILE2> R2_primers-pass.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> sra
+
+PROGRESS> 12:02:45 |Indexing files           | 0.0 minPROGRESS> 12:02:45 |Done                     | 0.0 min
+
+PROGRESS> 12:02:45 |                    |   0% (     0) 0.0 minPROGRESS> 12:02:46 |#                   |   5% ( 2,963) 0.0 minPROGRESS> 12:02:46 |##                  |  10% ( 5,926) 0.0 minPROGRESS> 12:02:46 |###                 |  15% ( 8,889) 0.0 minPROGRESS> 12:02:47 |####                |  20% (11,852) 0.0 minPROGRESS> 12:02:47 |#####               |  25% (14,815) 0.0 minPROGRESS> 12:02:48 |######              |  30% (17,778) 0.0 minPROGRESS> 12:02:48 |#######             |  35% (20,741) 0.0 minPROGRESS> 12:02:48 |########            |  40% (23,704) 0.1 minPROGRESS> 12:02:49 |#########           |  45% (26,667) 0.1 minPROGRESS> 12:02:49 |##########          |  50% (29,630) 0.1 minPROGRESS> 12:02:50 |###########         |  55% (32,593) 0.1 minPROGRESS> 12:02:46 |############        |  60% (35,556) 0.0 minPROGRESS> 12:02:46 |#############       |  65% (38,519) 0.0 minPROGRESS> 12:02:47 |##############      |  70% (41,482) 0.0 minPROGRESS> 12:02:47 |###############     |  75% (44,445) 0.0 minPROGRESS> 12:02:47 |################    |  80% (47,408) 0.0 minPROGRESS> 12:02:48 |#################   |  85% (50,371) 0.0 minPROGRESS> 12:02:48 |##################  |  90% (53,334) 0.0 minPROGRESS> 12:02:48 |################### |  95% (56,297) 0.0 minPROGRESS> 12:02:49 |####################| 100% (59,251) 0.1 min
+
+   OUTPUT1> R1_primers-pass_pair-pass.fastq
+   OUTPUT2> R2_primers-pass_pair-pass.fastq
+SEQUENCES1> 55346
+SEQUENCES2> 59251
+      PASS> 53611
+       END> PairSeq
+
+[CMD] PairSeq.py -1 /data/session_files/c32b862f-8a0e-4d10-9326-ac1ba487f5b6/R1_primers-pass.fastq -2 /data/session_files/c32b862f-8a0e-4d10-9326-ac1ba487f5b6/R2_primers-pass.fastq --1f BARCODE --coord sra

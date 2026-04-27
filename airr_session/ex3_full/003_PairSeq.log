@@ -1,0 +1,19 @@
+     START> PairSeq
+     FILE1> R1_q20_quality-pass_primers-pass.fastq
+     FILE2> R2_q20_quality-pass_primers-pass.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> sra
+
+PROGRESS> 11:54:50 |Indexing files           | 0.0 minPROGRESS> 11:54:50 |Done                     | 0.0 min
+
+PROGRESS> 11:54:50 |                    |   0% (    0) 0.0 minPROGRESS> 11:54:50 |#                   |   5% (  310) 0.0 minPROGRESS> 11:54:50 |##                  |  10% (  620) 0.0 minPROGRESS> 11:54:50 |###                 |  15% (  930) 0.0 minPROGRESS> 11:54:50 |####                |  20% (1,240) 0.0 minPROGRESS> 11:54:50 |#####               |  25% (1,550) 0.0 minPROGRESS> 11:54:50 |######              |  30% (1,860) 0.0 minPROGRESS> 11:54:50 |#######             |  35% (2,170) 0.0 minPROGRESS> 11:54:50 |########            |  40% (2,480) 0.0 minPROGRESS> 11:54:50 |#########           |  45% (2,790) 0.0 minPROGRESS> 11:54:50 |##########          |  50% (3,100) 0.0 minPROGRESS> 11:54:50 |###########         |  55% (3,410) 0.0 minPROGRESS> 11:54:50 |############        |  60% (3,720) 0.0 minPROGRESS> 11:54:50 |#############       |  65% (4,030) 0.0 minPROGRESS> 11:54:50 |##############      |  70% (4,340) 0.0 minPROGRESS> 11:54:51 |###############     |  75% (4,650) 0.0 minPROGRESS> 11:54:51 |################    |  80% (4,960) 0.0 minPROGRESS> 11:54:51 |#################   |  85% (5,270) 0.0 minPROGRESS> 11:54:51 |##################  |  90% (5,580) 0.0 minPROGRESS> 11:54:51 |################### |  95% (5,890) 0.0 minPROGRESS> 11:54:51 |####################| 100% (6,184) 0.0 min
+
+   OUTPUT1> R1_q20_quality-pass_primers-pass_pair-pass.fastq
+   OUTPUT2> R2_q20_quality-pass_primers-pass_pair-pass.fastq
+SEQUENCES1> 33551
+SEQUENCES2> 6184
+      PASS> 5229
+       END> PairSeq
+
+[CMD] PairSeq.py -1 /data/session_files/3d5e8559-c691-43ca-b25a-ecf3b3eec7b3/R1_q20_quality-pass_primers-pass.fastq -2 /data/session_files/3d5e8559-c691-43ca-b25a-ecf3b3eec7b3/R2_q20_quality-pass_primers-pass.fastq --1f BARCODE --coord sra

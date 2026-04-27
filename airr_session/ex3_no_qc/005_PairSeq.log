@@ -1,0 +1,19 @@
+     START> PairSeq
+     FILE1> R1_CONS_consensus-pass.fastq
+     FILE2> R2_CONS_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 12:03:32 |Indexing files           | 0.0 minPROGRESS> 12:03:32 |Done                     | 0.0 min
+
+PROGRESS> 12:03:32 |                    |   0% (    0) 0.0 minPROGRESS> 12:03:32 |#                   |   5% (  368) 0.0 minPROGRESS> 12:03:32 |##                  |  10% (  736) 0.0 minPROGRESS> 12:03:32 |###                 |  15% (1,104) 0.0 minPROGRESS> 12:03:32 |####                |  20% (1,472) 0.0 minPROGRESS> 12:03:32 |#####               |  25% (1,840) 0.0 minPROGRESS> 12:03:32 |######              |  30% (2,208) 0.0 minPROGRESS> 12:03:32 |#######             |  35% (2,576) 0.0 minPROGRESS> 12:03:33 |########            |  40% (2,944) 0.0 minPROGRESS> 12:03:33 |#########           |  45% (3,312) 0.0 minPROGRESS> 12:03:33 |##########          |  50% (3,680) 0.0 minPROGRESS> 12:03:33 |###########         |  55% (4,048) 0.0 minPROGRESS> 12:03:33 |############        |  60% (4,416) 0.0 minPROGRESS> 12:03:33 |#############       |  65% (4,784) 0.0 minPROGRESS> 12:03:33 |##############      |  70% (5,152) 0.0 minPROGRESS> 12:03:33 |###############     |  75% (5,520) 0.0 minPROGRESS> 12:03:33 |################    |  80% (5,888) 0.0 minPROGRESS> 12:03:33 |#################   |  85% (6,256) 0.0 minPROGRESS> 12:03:33 |##################  |  90% (6,624) 0.0 minPROGRESS> 12:03:33 |################### |  95% (6,992) 0.0 minPROGRESS> 12:03:33 |####################| 100% (7,358) 0.0 min
+
+   OUTPUT1> R1_CONS_consensus-pass_pair-pass.fastq
+   OUTPUT2> R2_CONS_consensus-pass_pair-pass.fastq
+SEQUENCES1> 7423
+SEQUENCES2> 7358
+      PASS> 7335
+       END> PairSeq
+
+[CMD] PairSeq.py -1 /data/session_files/c32b862f-8a0e-4d10-9326-ac1ba487f5b6/pairseq_002/R1_CONS_consensus-pass.fastq -2 /data/session_files/c32b862f-8a0e-4d10-9326-ac1ba487f5b6/pairseq_002/R2_CONS_consensus-pass.fastq --coord presto

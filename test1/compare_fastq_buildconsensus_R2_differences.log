@@ -1,0 +1,8 @@
+=== BuildConsensus R2 comparison ===
+Reads present in C:\Users\DELL\Documents\GitHub\MS_thesis\evaluation\airr_session\ex3_full\pairseq_003\R2_CONS_consensus-pass.fastq but not in C:\Users\DELL\Documents\GitHub\MS_thesis\evaluation\presto_pipeline\MS12_R2_consensus-pass.fastq:
+- GCGCCGTACCATGTG|CONSCOUNT=7|PRIMER=IGHV_10,IGHV_15,IGHV_2,IGHV_26,IGHV_30|PRCOUNT=1,1,3,1,1  (count 1)
+  SEQ: NNNNNNNNNNNNNNNNNNNNNNGCCACTATGCCTCGCAGCAGATCAGGCAGATCGCGAGTCAGCTGGAGCAGGAGTGGAAGGCGTTTGCGGCAGCCCTGGATGAGCGGAGCACCTTGCTGGACATGTCCTCCATTTTCCACCAGAAGGCCGAAAAGTATATGAGCAACGTGGATTCATGGTGTAAAGCTTGCGGTGAGGTAGACCTTCCCTCAGAGCTGCAGGACCTAGAAGANGCCATTCATCACCACC
+  QUAL: !!!!!!!!!!!!!!!!!!!!!!I{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{!{{{{{{{{{{{{{{{{
+- GCATGGGGCGGTGGG|CONSCOUNT=4|PRIMER=IGHV_15,IGHV_2|PRCOUNT=1,3  (count 1)
+  SEQ: NNNNNNNNNNNNNNNNNNNNNNNCTCAGCCCACTGTGTCTGCCCGATGCTCACCTGTCCAGAGGCCAACGCTACCAAGGTGAGGGGTGTGGGATGTGAAGGGGAGTGGGGAGGAGGCCTCGCCTTGAACATCCTTGTTCTCTGCCCCAGGTCTGTGGGTCAGATGGAGTCACATACGGCAACGAGTGTNAGCTGAAGACCATCGCCTGCCGCCAGGGCCTGCAAATCTCTATCCAGAGCCTGGGCCCGTG
+  QUAL: !!!!!!!!!!!!!!!!!!!!!!!{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{y{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{tp{oo{r{rtrr{d{rt{stqq{r{qr{qqrvrr{{qrr{{Whj{i{{nUiliPc{rmfjoqpnrWf{mm{TnaknS]o!intnq{jog{lefdv{[ge{rB{]_{{R{hpng{{ke]Tam]f{lbWY`{_Kn{X{{jU_a
