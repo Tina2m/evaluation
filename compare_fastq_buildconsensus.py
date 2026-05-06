@@ -6,11 +6,11 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 
 # R1_FILE1 = SCRIPT_DIR / r"presto_pipeline\MS12_R1_consensus-pass.fastq"
-R1_FILE1 = SCRIPT_DIR / r"airr_session\ex3_no_qc\pairseq_002\R1_CONS_consensus-pass.fastq"
+R1_FILE1 = SCRIPT_DIR / r"presto_pipeline\MS12_R1_consensus-pass.fastq"
 R1_FILE2 = SCRIPT_DIR / r"airr_session2\ex3_full\pairseq_003\R1_CONS_consensus-pass.fastq"
 R1_LOG_FILE = SCRIPT_DIR / "compare_fastq_buildconsensus_R1_differences.log"
 
-R2_FILE1 = SCRIPT_DIR / r"airr_session\ex3_no_qc\pairseq_002\R2_CONS_consensus-pass.fastq"
+R2_FILE1 = SCRIPT_DIR / r"presto_pipeline\MS12_R2_consensus-pass.fastq"
 R2_FILE2 = SCRIPT_DIR / r"airr_session2\ex3_full\pairseq_003\R2_CONS_consensus-pass.fastq"
 R2_LOG_FILE = SCRIPT_DIR / "compare_fastq_buildconsensus_R2_differences.log"
 # --------------------------------
